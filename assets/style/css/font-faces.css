@@ -1,0 +1,19 @@
+/*SourceSansPro*/
+@font-face {
+  font-family: 'SourceSansPro-Regular';
+  src: url('~/assets/fonts/source-sans-pro/SourceSansPro-Regular.woff2') format('woff2'),
+  url('~/assets/fonts/source-sans-pro/SourceSansPro-Regular.woff') format('woff'),
+  url('~/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url('~/assets/fonts/source-sans-pro/SourceSansPro-Bold.woff2') format('woff2'),
+  url('~/assets/fonts/source-sans-pro/SourceSansPro-Bold.woff') format('woff'),
+  url('~/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}

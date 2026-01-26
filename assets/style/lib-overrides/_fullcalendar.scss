@@ -1,0 +1,69 @@
+@use "../helpers/variables" as *;
+@use "../helpers/mixins" as *;
+
+.fc {
+  font-family: $SourceSansPro-regular;
+  color: $color-text;
+  .fc-toolbar-title {
+    font-family: $SourceSansPro-regular;
+    font-size: 18px;
+    color: $color-text;
+  }
+  .fc-col-header-cell {
+    height: 40px;
+    background-color: $color-grey-highlight;
+    font-size: 11px;
+    color: $color-grey-text;
+    font-family: $SourceSansPro-bold;
+    vertical-align: middle;
+    .fc-day {
+      @include display-flex;
+      @include flex-direction(column);
+      @include justify-content(center);
+      @include align-items(center);
+    }
+  }
+  .fc-timegrid-slot-label-cushion,
+  .fc-timegrid-axis-cushion {
+    font-size: 13px;
+  }
+  .fc-daygrid-day-number {
+    font-size: 15px;
+  }
+  .fc-timegrid-col.fc-day-today,
+  .fc-daygrid-day.fc-day-today {
+    background-color: $color-grey-highlight;
+  }
+  .fc-timegrid-divider {
+    @include hidden;
+  }
+  .fc-button:focus,
+  .fc-button:active,
+  .fc-button-primary:focus,
+  .fc-button-primary:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .fc-button {
+    padding: 8px 18px;
+    border-radius: 4px;
+  }
+  .fc-button-primary {
+    background-color: transparent !important;
+    border-color: $color-grey-border !important;
+    color: $color-text !important;
+    font-size: 13px;
+    text-transform: capitalize;
+    &:disabled,
+    &:hover {
+      border-color: $color-grey-border !important;
+      background-color: transparent !important;
+      color: $color-text !important ;
+    }
+    &:not(:disabled).fc-button-active {
+      border-color: $color-grey-border !important;
+      background-color: transparent !important;
+      color: $color-blue !important;
+    }
+  }
+} 
