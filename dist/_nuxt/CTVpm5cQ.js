@@ -1,1 +1,0 @@
-import{_ as o}from"./DlAUqK2U.js";import{x as t,y as a,Y as s}from"./5NCzyLLF.js";const n={},r={class:"layout"};function c(e,_){return t(),a("main",r,[s(e.$slots,"default",{},void 0)])}const l=o(n,[["render",c],["__scopeId","data-v-f8500da7"]]);export{l as default};
