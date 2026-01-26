@@ -1,6 +1,10 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/jointoit-tw/',
+    buildAssetsDir: '/jointoit-tw/_nuxt/'
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   typescript: {
