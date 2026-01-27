@@ -8,6 +8,8 @@
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
+
 .layout {
   min-height: 100vh;
   @include display-flex;
