@@ -25,6 +25,7 @@ const handleViewChange = (view: View) => {
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
 .admin {
   @include display-flex;
   @include flex-direction(row);
