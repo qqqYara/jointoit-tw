@@ -419,6 +419,8 @@ defineExpose({
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers/variables.scss" as *;
+@use "@/assets/style/helpers/mixins.scss" as *;
 .calendar-modal {
   width: 200px;
   &__content {

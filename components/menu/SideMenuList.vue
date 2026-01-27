@@ -40,7 +40,8 @@ const selectView = (view: View) => {
 </template>
 
 <style scoped lang="scss">
-@use "@/assets/style/helpers.scss" as *;
+@use "@/assets/style/helpers/variables.scss" as *;
+@use "@/assets/style/helpers/mixins.scss" as *;
 .nav-list {
   ul {
     li {
