@@ -8,6 +8,7 @@
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
 .home {
   background-color: $color-grey-bg;
 }

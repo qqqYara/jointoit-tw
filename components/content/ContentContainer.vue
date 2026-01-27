@@ -20,6 +20,7 @@ const props = withDefaults(defineProps<{ currentView?: View }>(), {
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
 .content {
   &-container {
     @include display-flex;

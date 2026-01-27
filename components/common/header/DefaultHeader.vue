@@ -46,6 +46,7 @@
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
 .header {
   @include display-flex;
   @include align-items(center);

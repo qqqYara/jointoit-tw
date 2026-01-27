@@ -26,6 +26,7 @@ const handleSelectView = (view: View) => {
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
 .side-menu {
   @include display-flex;
   @include flex-direction(column);

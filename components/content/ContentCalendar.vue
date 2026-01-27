@@ -115,6 +115,7 @@ const handleModalDiscard = ({ editEventId }: CalendarModalDiscardPayload) => {
 </template>
 
 <style scoped lang="scss">
+@use "@/assets/style/helpers.scss" as *;
 .calendar {
   @include display-flex;
   @include flex-direction(column);
