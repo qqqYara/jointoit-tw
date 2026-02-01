@@ -22,7 +22,7 @@ const selectView = (view: View) => {
 </script>
 
 <template>
-  <nav-list class="nav-list">
+  <nav class="nav-list">
     <ul>
       <li v-for="item in menuItems" :key="item.view">
         <button
@@ -36,7 +36,7 @@ const selectView = (view: View) => {
         </button>
       </li>
     </ul>
-  </nav-list>
+  </nav>
 </template>
 
 <style scoped lang="scss">
